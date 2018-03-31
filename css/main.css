@@ -5,21 +5,21 @@ body {
     font-family: 'Lato',Helvetica,Arial,sans-serif;
     font-weight: normal;
     background-color: #DDDDDD;
-    background-image: url(http://pandahomecare.townsquareinteractive.com/files/2015/05/mainbgr.jpg);
+    background-image: url(../img/mainbgr.jpg);
     background-repeat: no-repeat;
     background-position: center top;
 }
 
-h1, h2, h3, ul, ol, li, dl, dt, dd, p, form, fieldset, legend, input, img { margin:0; padding:0; }
+/* h1, h2, h3, ul, ol, li, dl, dt, dd, p, form, fieldset, legend, input, img { margin:0; padding:0; } */
 ul li { list-style:none; }
 ul, li { margin:0; padding:0; }
-a:link, a:visited { color:#333; text-decoration:none; }
-a:hover { color:#2c9012; text-decoration: underline; }
+/* a:link, a:visited { color:#333; text-decoration:none; }
+a:hover { color:#2c9012; text-decoration: underline; } */
 
 /* 部分变量 */
 .tel {
     background-color:#DC143C;
-    border-color: #707070;
+    /* border-color: #707070; */
     display: inline-block;
     position: relative;
     /* text-align: center; */
@@ -32,4 +32,182 @@ a:hover { color:#2c9012; text-decoration: underline; }
 
 .address {
     margin-left: 80px;
+}
+
+.share_list {
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0.5rem 1rem !important;
+    text-align: right !important;
+    line-height: 20px;
+    padding: 5px 20px;
+    line-height: 2rem;
+    padding: .5rem 2rem;
+}
+
+.logo {
+    margin-left:0;
+}
+
+.title {
+    font-size:20px;
+    color:#333;
+    text-align:right;
+    display: inline-block;
+    position: relative;
+}
+
+.banner {
+    background-image: url(../img/bgr1.jpg);
+    background-size:960px 300px;
+    width:960px;
+    height:300px;
+    text-align:center;
+}
+
+.banner-title {
+    font-size:28px;
+    color:#fff;
+    text-align:center;
+    margin:0 auto; 
+    display: inline-block;
+    position: relative;
+}
+
+.About {
+    width:200px;
+    height:50px;
+    background-color:#DC143C;
+    border-color:#333;
+    color:#fff;
+    margin:0 auto; 
+    display: inline-block;
+    position: relative;
+}
+
+.ContactUs {
+    width:200px;
+    height:50px;
+    background-color:#DC143C;
+    border-color:#333;
+    color:#fff;
+    margin:0 auto; 
+    display: inline-block;
+    position: relative;
+}
+
+.banner-table{
+    width:962px;
+    height:412px;
+    font-size:25px;
+    background-color:#fff;
+    text-align:center;
+    color:#fff;
+    margin:0 auto; 
+    display: inline-block;
+    position: relative;
+}
+
+#About {
+    width:480px;
+    height:200px;
+    background-image: url(../img/1.jpg);
+    background-size:100% 100%;
+}
+
+#Options {
+    width:480px;
+    height:200px;
+    background-image: url(../img/2.jpg);
+    background-size:100% 100%;
+}
+
+#Employment {
+    width:480px;
+    height:200px;
+    background-size:480px 200px;
+    background-image: url(../img/3.jpg);
+    background-size:100% 100%;
+}
+
+#ContactUs {
+    width:480px;
+    height:200px;
+    background-image: url(../img/4.jpg);
+    background-size:100% 100%;
+}
+
+.content {
+    width:960px;
+    height:600px;
+    /* margin-left:0;
+    display: inline-block;
+    position: relative; */
+}
+
+.content-int {
+    width:960px;
+    height:250px;
+    margin-top:20px;
+}
+
+.content-ell {
+    width:960px;
+    height:350px;
+    margin-top:60px;
+}
+
+.content-int-left {
+    background-color:#DDDDDD;
+    width:450px;
+    height:300px;
+    color:#333;
+    font-size:20px;
+    float:left;
+    border-color: brown;
+}
+
+.content-int-right {
+    background-color:#DDDDDD;
+    width:450px;
+    height:300px;
+    margin-left:30px;
+    color:#333;
+    font-size:20px;
+    float:right;
+    border-color: brown;
+}
+
+.content-ell-left {
+    background-color: #556644;;
+    width:300px;
+    height:350px;
+    color:#333;
+    font-size:20px;
+    float:left;
+    border-color: brown;
+}
+
+.content-ell-middle {
+    background-color:rgb(36, 153, 173);
+    width:400px;
+    height:350px;
+    margin-left:310px;
+    color:#333;
+    font-size:20px;
+    border-color: brown;
+}
+
+.content-ell-right {
+    background-color:rgb(230, 198, 22);
+    width:300px;
+    height:350px;
+    margin-left:750px;
+    color:#333;
+    font-size:20px;
+    border-color: brown;
+}
+
+.contactUs {
+    margin-top:100px;
 }
