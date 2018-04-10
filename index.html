@@ -115,17 +115,24 @@
             <!-- 提交模块 -->
             <div class="contactUs">
         <form action="form_action.asp" method="get">
-            <p>Name<br><input type="text" name="fname" /><br>First</p>
-            <p><input type="text" name="lname" />Last<br></p>
-            <p>Email<br><input type="text" name="email" /></p>
-            <p>How did you hear about us?<chectbox checked="checked" type="check" value="check" />Radio</p>
-            <p>Message<br><input type="text" name="message" /><br></p>
-            <p>Security Check: Please solve the simple math question to continue<br>2+8=
-                <input type="text" name="note" /></p>
+            <div>Name<br><input type="text" name="fname" />
+                <label>First</label></div>
+            <div><input type="text" name="lname" />
+                <label>Last</label></div>
+            <div><label>Email</label>
+                <input type="text" name="email" /></div>
+            <div><label>How did you hear about us?</label>
+                <chectbox checked="checked" type="check" value="check" />
+                <label>Radio</label></div>
+            <div><label>Message</label>
+                <input type="text" name="message" /></div>
+            <div><p>Security Check: Please solve the simple math question to continue</p><p>2+8=</p>
+                <input type="text" name="note" /></div>
           </form>
         </div>
         <div class="submit">
-                <input type="submit" name="submit" />submit</p>
+                <input type="submit" name="submit" />
+                <label>submit</label>
         </div>
         </div>
     <!-- 底部落款 -->
