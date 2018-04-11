@@ -32,6 +32,11 @@ h3 {
     color: #bc2028;
 }
 
+h4 {
+    color: #fff;
+    margin:1.5rem 1.5rem;
+}
+
 .phone {
     text-align:left;
 }
@@ -187,42 +192,44 @@ h3 {
 
 .content-ell-left {
     width:30%;
-    height:200px;
-    color: #ffffff;
+    height:230px;
     float:left;
-    border-radius: 5rem !important;
-    border: 2px inset #BC2028 !important;
-    box-shadow: 0 4px 4px -2px #000 !important;
     /* padding: 1.6rem;
     overflow: auto; */
 }
 
 .content-ell-middle {
     width:30%;
-    height:250px;
-    color: #ffffff;
+    height:270px;
     float:left;
     margin-left:4%;
-    border-radius: 5rem !important;
-    border: 2px inset #BC2028 !important;
-    box-shadow: 0 4px 4px -2px #000 !important;
 }
 
 .content-ell-right {
     width:30%;
-    height:350px;
-    color: #ffffff;
-    border-radius: 5rem !important;
-    border: 2px inset #BC2028 !important;
-    box-shadow: 0 4px 4px -2px #000 !important;
+    height:320px;
     float:right;
 }
 
+.bg {
+    background-color: #bc2028;
+    border-radius: 5rem !important;
+    border: 2px inset #BC2028 !important;
+    box-shadow: 0 4px 4px -2px #000 !important;
+}
+
+.text1 {
+    color:#fff;
+    font-size:50%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:-0.5rem 1.5rem;
+}
+
 .text {
-        font-size: 55%;
-        line-height: 1.5;
-        /* padding: 1.6rem; */
-        overflow: auto;
+    font-size: 55%;
+    line-height: 1.5;
+    padding: 0.5rem 0.5rem;
+    overflow: auto;
 }
 
 .text p{
@@ -234,4 +241,15 @@ h3 {
 .contactUs {
     margin-top:50px;
     background-image: url(../img/mainbgr.jpg);
+    width:960px;
+    height:600px;
+}
+
+.contactUs h3 {
+    font-size:200%;
+}
+
+label {
+    font-size:120%;
+    color:#333;
 }
