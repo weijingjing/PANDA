@@ -239,7 +239,7 @@ h4 {
 }
 
 .contactUs {
-    margin-top:50px;
+    margin-top:20px;
     background-image: url(../img/mainbgr.jpg);
     width:960px;
     height:600px;
@@ -252,4 +252,30 @@ h4 {
 label {
     font-size:120%;
     color:#333;
+}
+
+label {
+    font-size:150%;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+input {
+    width:30rem;
+    height:2rem;
+    margin-top:30px;
+}
+
+.cu {
+    margin-top:30px;
+}
+
+.cu1 {
+    margin-top:60px;
+}
+
+.submit input {
+    width:10rem;
+    height:2rem;
+    margin-top:10px;
 }
