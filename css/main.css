@@ -15,8 +15,9 @@ body {
 /* h1, h2, h3, ul, ol, li, dl, dt, dd, p, form, fieldset, legend, input, img { margin:0; padding:0; } */
 ul li { list-style:none; }
 ul, li { margin:0; padding:0; }
-/* a:link, a:visited { color:#333; text-decoration:none; }
-a:hover { color:#2c9012; text-decoration: underline; } */
+a,text,ul {font-size:25px;}
+a:link, a:visited { color:#333; text-decoration:none; }
+a:hover { color:#2c9012; text-decoration: underline; }
 
 /* 部分变量 */
 .tel {
@@ -42,16 +43,14 @@ h4 {
 }
 
 .address {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .share_list {
-    width: 20% !important;
-    margin: 0 !important;
-    padding: 0.5rem 1rem !important;
-    text-align: right !important;
-    line-height: 20px;
-    padding: 5px 20px;
+    /* width: 20% !important;
+    margin: 0 !important; */
+    /* padding: 0.5rem 1rem !important; */
+    /* text-align: right !important; */
     line-height: 2rem;
     padding: .5rem 2rem;
 }
@@ -66,13 +65,16 @@ h4 {
     text-align:right;
     display: inline-block;
     position: relative;
+    float:right;
+    margin: 20px 195px;
 }
 
 .banner {
     background-image: url(../img/bgr1.jpg);
-    background-size:960px 300px;
+    background-size:100%;
+    background-attachment: inherit;
     width:960px;
-    height:300px;
+    height:500px;
     text-align:center;
 }
 
@@ -80,7 +82,7 @@ h4 {
     font-size:28px;
     color:#fff;
     text-align:center;
-    margin:0 auto; 
+    margin:100px auto; 
     display: inline-block;
     position: relative;
 }
@@ -152,9 +154,10 @@ h4 {
     width:960px;
     height:600px;
     font-size: 1.2rem;
-    /* margin-left:0;
-    display: inline-block;
-    position: relative; */
+    background-image: url(../img/bgr2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .content-int {
@@ -240,7 +243,9 @@ h4 {
 
 .contactUs {
     margin-top:20px;
-    background-image: url(../img/mainbgr.jpg);
+    background-image: url(../img/mainbgr.jpg) !important;
+    background-size:100%;
+    background-attachment: inherit;
     width:960px;
     height:600px;
 }
@@ -267,15 +272,49 @@ input {
 }
 
 .cu {
-    margin-top:30px;
+    margin-top:10px;
 }
 
 .cu1 {
+    margin-top:10px;
+}
+
+.note {
+    width:10rem;
+    height:2rem;
+}
+
+.submit {
+    width:10rem;
+    height:2rem;
+    margin-top:20px;
+    border:#333 solid;
+    border-radius: 2rem;
+    border-color: #bc2028;
+    background-color: #bc2028;
+    margin:25px 100px;
+}
+
+.submit label {
+    color:#fff;
+}
+
+.radio {
+    width:20px;
+    height:20px;
+}
+
+.bottom {
     margin-top:60px;
 }
 
-.submit input {
-    width:10rem;
-    height:2rem;
-    margin-top:10px;
+.bottom-center {
+    margin:auto 0;
+}
+
+.bottom-left {
+    float:left;
+}
+.bottom-right {
+    float:right;
 }

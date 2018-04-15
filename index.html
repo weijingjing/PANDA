@@ -11,7 +11,7 @@
     <div class="top">
             <div class="tel">
                     <a href="tel:+1-860-633-5907" class="phone" data-icon="A" title="(860) 633-5907">(860) 633-5907</a>
-                    <text class="address">To Enlarge Text, Press CTRL +</text>
+                    <text class="address">To Enlarge Text, Press CTRL +
                     <!-- <select name="catalogs" class="catalogs">
                             <option value="follow us">follow us</option>
                             <option value="facebook">facebook</option>
@@ -20,7 +20,7 @@
                     </select> -->
                     <!-- follow us 下拉菜单 -->
                     <ul class="share_list"><span class="share_title">Follow Us</span>
-                      <ul class="share_icons">
+                      <!-- <ul class="share_icons">
                     <ul class="social-media-links">
                         <li class="facebook">
                             <a href="" title="Facebook" target="_blank"></a></li>
@@ -29,13 +29,14 @@
                         <li class="printthispage">
                             <a href="" title="Print This Page" target="_blank" class="print_icon"></a></li>
                         </ul>
+                    </ul> -->
                     </ul>
-                    </ul>
+                </text>
                 </div>
         <div class="logo">
             <image src="./img/logo1.jpg">
         <text class="title">Home Care with a Heart<br>Locations in Glastonbury & New Haven, CT</text></div>
-        <div class="nav">nav</div>
+        <div class="nav"></div>
     </div>
     <!-- banner图片部分 -->
     <div class="banner">
@@ -115,37 +116,41 @@
             </div>
             </div>
             <!-- 提交模块 -->
-            <div class="contactUs"><h3>Contact Us</h3>
+            <div class="contactUs">
+                <h3>Contact Us</h3>
         <form action="form_action.asp" method="get">
+            <!-- 姓名 -->
             <div class="cu"><label>Name</label><br>
                 <input type="text" name="fname" />
                 <label>First</label></div>
             <div class="lacust"><input type="text" name="lname" />
                 <label>Last</label></div><br>
+                <!-- 邮箱 -->
             <div class="cu"><label>Email</label><br>
                 <input type="text" name="email" /></div>
-            <div class="cu1"><label>How did you hear about us?</label><br>
-                <chectbox checked="checked" type="check" value="check" />
-                <label>Radio</label></div>
-                <br>
-            <div class="cu"><label>Message</label>
+                <!-- 选择框 -->
+            <div class="cu1"><label>How did you hear about us?</label>
+                <!-- <chectbox checked="checked" type="check" value="check" /> -->
+                <img class="radio" src="./img/2764.png"></div>
+                <!-- 消息 -->
+            <div class="cu"><label>Message</label><br>
                 <input type="text" name="message" /></div>
-            <div class="cu"><label>Security Check: Please solve the simple math question to continue</label>
-                <br><label>2+8=</label>
-                <input type="text" name="note" /></div>
-          </form>
-        </div>
-        <div class="submit">
-                <input type="submit" name="submit" />
-                <label>submit</label>
-        </div>
+                <!-- 验证码 -->
+            <div class="cu">
+                <label>Security Check: Please solve the simple math question to continue</label>
+                <br>
+                <label>2+8=</label>
+                <input class="note" type="text" name="note" />
+                <!-- submit -->
+                <button class="submit" type="submit" name="submit"><label>SUBMIT</label></button>
+            </div>
+            </form>
         </div>
     <!-- 底部落款 -->
     <div class="bottom">
         <div class="bottom-center"><p>HCA# 0000123</p></div>
-        <div class="bottom-left"><p>Copyright © 2018 Panda Home Care, all rights reserved.</p></div>
+        <div class="bottom-left"><p>Copyright © 2018 Panda Home Care, all rights reserved.</p></div>        
         <div class="bottom-right"><img src="./img/powered-tsi.png" title="bottom-right"></div>
     </div>
 	</body>
-
 	</html>
