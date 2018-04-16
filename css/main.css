@@ -44,6 +44,7 @@ h4 {
 
 .address {
     margin-left: 50px;
+    text-shadow: 2px 2px 2px #000 !important;
 }
 
 .share_list {
