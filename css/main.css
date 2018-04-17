@@ -38,26 +38,67 @@ h4 {
     margin:1.5rem 1.5rem;
 }
 
+.top {
+    position: fixed; 
+    color: #fff;
+    width:100%;
+    height:30px;
+    top:0;
+    left:0;
+}
+
+.logo1{
+    padding: 0;
+    line-height: 0;
+    margin-left:180px;
+}
+
 .phone {
     text-align:left;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 20% !important;
+    margin: 0 !important;
+    padding: 0.5rem 1rem !important;
+    text-align: left;
 }
 
 .address {
-    margin-left: 50px;
-    text-shadow: 2px 2px 2px #000 !important;
+    /* margin-left: 50px; */
+    width: 50% !important;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem !important;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 .share_list {
-    /* width: 20% !important;
-    margin: 0 !important; */
-    /* padding: 0.5rem 1rem !important; */
-    /* text-align: right !important; */
-    line-height: 2rem;
-    padding: .5rem 2rem;
+    /* font-size: 1.5rem;
+    /* line-height: 2rem;
+    padding: .5rem 2rem; */
+    /* font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;*/
+    float:right; 
+    display: inline-block;
+    text-align: right;
+    font-size: 1.5rem !important;
+    text-transform: capitalize !important;
+    font-weight: 700 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+
 }
 
 .logo {
     margin-left:0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
@@ -77,6 +118,7 @@ h4 {
     width:960px;
     height:500px;
     text-align:center;
+    margin-top:120px;
 }
 
 .banner-title {
@@ -267,9 +309,10 @@ label {
 }
 
 input {
-    width:30rem;
-    height:2rem;
-    margin-top:30px;
+    width: 20rem;
+    height: 2rem;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .cu {
@@ -318,4 +361,5 @@ input {
 }
 .bottom-right {
     float:right;
+    margin: -32px 0px;
 }
