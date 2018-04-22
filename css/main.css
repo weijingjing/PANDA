@@ -13,7 +13,7 @@ body {
 /* h1, h2, h3, ul, ol, li, dl, dt, dd, p, form, fieldset, legend, input, img { margin:0; padding:0; } */
 ul li { list-style:none; }
 ul, li { margin:0; padding:0; }
-a,text,ul {font-size:25px;}
+a,text,ul {font-size:20px;}
 a:link, a:visited { color:#333; text-decoration:none; }
 a:hover { color:#2c9012; text-decoration: underline; }
 
@@ -95,6 +95,21 @@ h4 {
 
 .nav {
     display: inline-block;
+    height:50px;
+    float:right;
+    margin:-50px 10px;
+}
+.nav li {
+    font-size: 5px;
+    color:#333;
+    list-style-type: none;
+    float:right;
+}
+.nav-big li {
+    margin:5px 10px;
+    color:#2c9012;
+    float:right;
+    line-height:10px
 }
 
 .share_list {
